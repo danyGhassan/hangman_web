@@ -1,0 +1,7 @@
+services:
+  web:
+    image: hangman_web
+    build: .
+    container_name: web
+    ports:
+      - "8080:8080"
